@@ -14,8 +14,8 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const LAM = new Token(ChainId.ROPSTEN, '0x5345AD09C9753826E04C4D3aAc411343bDcF68f8', 18, 'LAMBO', 'LAMBO TOKEN')
-export const USDC = new Token(ChainId.ROPSTEN, '0x07A8BBc3EA488402e8a1af018c233Ad1f96638Ee', 6, 'USDC', 'USD//C')
+export const LAM = new Token(ChainId.MAINNET, '0x6da11821ac676d7ef8b31b2ace5d025429f5af44', 18, 'LAMBO', 'LAMBO TOKEN')
+export const USDC = new Token(ChainId.MAINNET, '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 6, 'USDC', 'USD//C')
 export const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'Dai Stablecoin')
 // export const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6, 'USDC', 'USD//C')
 export const USDT = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
